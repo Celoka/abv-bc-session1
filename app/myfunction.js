@@ -1,4 +1,5 @@
-function aritGeo(arr)  {
+module.exports =  {
+aritGeo: (arr) => {
     
     let arrayType = -1;
     if (arr.length <= 0) 
@@ -24,3 +25,6 @@ function aritGeo(arr)  {
         }
     }
     return arrayType;
+
+  }
+}
